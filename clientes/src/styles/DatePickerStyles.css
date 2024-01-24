@@ -1,0 +1,51 @@
+  .react-datepicker__month-container {
+    background-color: white !important;
+  }
+
+  .my-div {
+    position: absolute;
+    top: 750px;
+    left: 1050px;
+    color: black;
+    z-Index: 9999;
+  }
+  
+  .datepicker-container {
+    display: flex;
+  }
+  
+  .my-datepicker1 input {
+    background-image: url('./img/calendario.png');
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    background-size: 20px 20px; 
+    padding-left: 30px;
+    text-align: left;
+  }
+
+  .my-datepicker2 input {
+    background-image: url('./img/calendario.png');
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    background-size: 20px 20px; 
+    padding-left: 30px;
+    text-align: left;
+  }
+  .custom-input {
+    position: relative;
+  }
+  
+  .date-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+  }
+  .my-input {
+    text-align: left;
+  }
+  .my-div {
+
+    border-bottom: 1px solid #000; /* Ajusta el color y el grosor del borde según tus necesidades */
+    padding: 10px; /* Añade un padding para darle espacio al contenido dentro del borde */
+  }

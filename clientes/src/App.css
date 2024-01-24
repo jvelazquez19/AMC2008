@@ -1,0 +1,249 @@
+.react-confirm-alert-button-group button {
+    background-color: #4CAF50; /* color de fondo */
+    border: none; /* remueve el borde */
+    color: white; /* color del texto */
+    padding: 15px 32px; /* padding */
+    text-align: center; /* alineación del texto */
+    text-decoration: none; /* remueve la decoración del texto */
+    display: inline-block; /* display */
+    font-size: 16px; /* tamaño de la fuente */
+    margin: 4px 2px; /* margen */
+    cursor: pointer; /* cursor */
+}
+.react-confirm-alert-body {
+    text-align: center;
+  }
+  
+  .react-confirm-alert-button-group {
+    justify-content: center;
+  }
+
+  .rbc-calendar,
+.rbc-header,
+.rbc-today,
+.rbc-row-content,
+.rbc-day-slot .rbc-events-container,
+.rbc-slot-selection,
+.rbc-selected,
+.rbc-row-bg,
+.rbc-time-slot,
+.rbc-timeslot-group,
+.rbc-date-cell,
+.rbc-month-view,
+.rbc-week-view,
+.rbc-day-view,
+.rbc-agenda-view {
+    border: none !important;
+}
+.calendar-container {
+    border: none;
+  }
+.rbc-header {
+    background-color: #6266A1 !important;
+    color: white !important;
+    border:none !important;
+}
+
+.rbc-today {
+    background-color: white !important;
+    color: none !important;
+    border:none !important;
+}
+.rbc-row-content {
+    border: none !important;
+}
+.rbc-calendar {
+    border: none !important;
+}
+.rbc-day-slot .rbc-events-container  .rbc.rbc-month-view{
+    border: none !important;
+}
+
+.calendar-container {
+    height: 40vh;
+    width: 50vw;
+    color: black;
+    margin-top: 50px;
+}
+
+.event {
+    background-color: #898FE5;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+.event-mine {
+    background-color: orange;
+}
+
+.rbc-agenda-view {
+    background-color: transparent !important;
+}
+.calendar-wrapper {
+    background-color: White;
+    padding: 10px;
+    color: black;
+    border: 3px solid #5B60A8;
+}
+
+.rbc-agenda-view,
+.rbc-agenda-view table,
+.rbc-agenda-view tbody,
+.rbc-agenda-view tr,
+.rbc-agenda-view td {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+
+
+.rbc-month-view .rbc-day-bg {
+    border: none !important;
+    background-color: transparent !important;
+}
+
+
+
+.rbc-month-view .rbc-date-cell,
+.rbc-month-view .rbc-month-header {
+    color: black;
+}   
+
+
+.div.rbc-row-segment {
+    border: none !important;
+}
+.rbc-day-bg rbc-off-range-bg {
+    background-color: transparent !important;
+    border: none !important;    
+
+}
+.rbc-month-row {
+    border: none !important;
+}
+
+.rbc-event.event.rbc-selected {
+    background-color: #797dbd;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.rbc-event {
+    background-color: #5b61ac;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+.rbc-event-label{
+    font-size: 10px;
+}
+
+
+.Cell-dayOfWeek {
+    background-color: #001fce7c;
+    color: white !important;
+    border: none;
+    font-size: 15px !important;
+    font-style: Bold !important;
+
+}
+
+.MuiTableCell-root,
+.MuiTableHead-root .MuiTableCell-root,
+.MuiTableBody-root .MuiTableCell-root,
+.MuiTableRow-root {
+    border: none !important;
+}
+
+
+
+.Cell-today {
+    background-color: #001fce7c !important;
+    color: white !important;
+    border: none;
+    font-size: 15px !important;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+
+.css-vnscjq-MuiButtonBase-root-MuiButton-root {
+
+    color: #6266A1 !important;
+    border: none;
+    font-size: 15px !important;
+    font-style: Bold !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+  
+.css-xya8j6-MuiButtonBase-root-MuiButton-root {
+    color: #6266A1 !important;
+    border: none;
+    font-size: 15px !important;
+    font-style: Bold !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+    color: #6266A1 !important;
+    border: none;
+    font-size: 15px !important;
+    font-style: Bold !important;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+.css-1675apn-MuiTableCell-root .Cell-highlightedText {
+    color: #6266A1 !important;
+    border: none;
+    font-style: Bold !important;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+.css-1675apn-MuiTableCell-root .Cell-dayOfMonth {
+    color: #6266A1 !important;
+    border: none;
+    font-style: Bold !important;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+.css-3nejl.Appointment-clickableAppointment {
+    color: #6266A1 !important;
+    border: none;
+    font-style: Bold !important;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+
+.mi-tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .mi-tooltip .mi-tooltip-texto {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+  
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+  
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .mi-tooltip:hover .mi-tooltip-texto {
+    visibility: visible;
+    opacity: 1;
+  }

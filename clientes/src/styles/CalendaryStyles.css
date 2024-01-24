@@ -1,0 +1,122 @@
+.rbc-calendar,
+.rbc-header,
+.rbc-today,
+.rbc-row-content,
+.rbc-day-slot .rbc-events-container,
+.rbc-slot-selection,
+.rbc-selected,
+.rbc-row-bg,
+.rbc-time-slot,
+.rbc-timeslot-group,
+.rbc-date-cell,
+.rbc-month-view,
+.rbc-week-view,
+.rbc-day-view,
+.rbc-agenda-view {
+    border: none !important;
+}
+.calendar-container {
+    border: none;
+  }
+.rbc-header {
+    background-color: #6266A1 !important;
+    color: white !important;
+    border:none !important;
+}
+
+.rbc-today {
+    background-color: white !important;
+    color: none !important;
+    border:none !important;
+}
+.rbc-row-content {
+    border: none !important;
+}
+.rbc-calendar {
+    border: none !important;
+}
+.rbc-day-slot .rbc-events-container  .rbc.rbc-month-view{
+    border: none !important;
+}
+
+.calendar-container {
+    height: 40vh;
+    width: 50vw;
+    color: black;
+    margin-top: 50px;
+}
+
+.event {
+    background-color: #898FE5;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+.event-mine {
+    background-color: orange;
+}
+
+.rbc-agenda-view {
+    background-color: transparent !important;
+}
+.calendar-wrapper {
+    background-color: White;
+    padding: 10px;
+    color: black;
+    border: 3px solid #5B60A8;
+}
+
+.rbc-agenda-view,
+.rbc-agenda-view table,
+.rbc-agenda-view tbody,
+.rbc-agenda-view tr,
+.rbc-agenda-view td {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+
+
+.rbc-month-view .rbc-day-bg {
+    border: none !important;
+    background-color: transparent !important;
+}
+
+
+
+.rbc-month-view .rbc-date-cell,
+.rbc-month-view .rbc-month-header {
+    color: black;
+}   
+
+
+.div.rbc-row-segment {
+    border: none !important;
+}
+.rbc-day-bg rbc-off-range-bg {
+    background-color: transparent !important;
+    border: none !important;    
+
+}
+.rbc-month-row {
+    border: none !important;
+}
+
+.rbc-event.event.rbc-selected {
+    background-color: #797dbd;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.rbc-event {
+    background-color: #5b61ac;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+.rbc-event-label{
+    font-size: 10px;
+}
